@@ -1,0 +1,29 @@
+.container{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+   gap:60px 40px;  
+   margin-top: 40px;
+  
+}
+
+.product{
+    width: 220px;
+    height:100%;
+    background-color: beige;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 9px;
+    
+}
+.img1{
+    max-width: 99%;
+    min-height: 10vh;
+}
+button{
+    border: 1px solid black;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
